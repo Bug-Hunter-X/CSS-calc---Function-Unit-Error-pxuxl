@@ -1,0 +1,10 @@
+/*Corrected CSS*/
+#container {
+  width: calc(100% - 20px);
+  /*Correct: both terms have units*/
+}
+.item {
+  width: calc(50% - 10px);
+  /*Correct: both terms have units*/
+}
+/*Notice the units in both terms of the calculation */
